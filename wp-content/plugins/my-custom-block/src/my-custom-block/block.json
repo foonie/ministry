@@ -1,0 +1,27 @@
+{
+	"apiVersion": 2,
+	"name": "myplugin/my-custom-block",
+	"title": "My Custom Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "A custom block example.",
+	"supports": {
+	  "html": false
+	},
+	"attributes": {
+	  "content": {
+		"type": "string",
+		"source": "html",
+		"selector": "p"
+	  }
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"scripts": {
+  "build": "wp-scripts build",
+  "start": "wp-scripts start"
+}
+
+  }
+  
