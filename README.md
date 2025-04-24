@@ -1,0 +1,6 @@
+Current work in progress...
+Building a wordpress website for a local church that has notes of the latest sermons
+
+live for testing purposes...
+https://foonielive.co.za/fellowworkersministries
+
